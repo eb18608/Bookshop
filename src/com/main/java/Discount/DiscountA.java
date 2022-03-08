@@ -15,6 +15,6 @@ public class DiscountA extends Discount {
     public void visit(DiscountVisitable d, Basket b) {
 
         // Discount logic
-//        System.out.println("Visitor A visits basket b: " + b.toString());
+        System.out.println("Visitor A visits basket b: " + b.toString());
     }
 }

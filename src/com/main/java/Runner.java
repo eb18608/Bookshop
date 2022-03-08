@@ -19,7 +19,7 @@ public class Runner {
         Basket b = new Basket(basket);
         DiscountApplier dApplier = new DiscountApplier(b);
         DiscountController dController = new DiscountController(b.getBasketList());
-        DiscountA discountA = new DiscountA(b.getBasketList());
-        dApplier.accept(discountA);
+        DiscountCentre dCentre = new DiscountCentre(dController, dApplier);
+        dCentre.triggerDiscounts();
     }
 }

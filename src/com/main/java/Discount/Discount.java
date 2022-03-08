@@ -16,4 +16,8 @@ public abstract class Discount implements DiscountVisitor{
     public Discount(HashSet<Book> aB) {
         this.applicableBooks = aB;
     }
+
+    public HashSet<Book> getApplicableBooks () {
+        return this.applicableBooks;
+    }
 }
