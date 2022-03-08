@@ -2,7 +2,7 @@ package com.main.java;
 
 import java.util.ArrayList;
 
-public class Main {
+public class Runner {
 
     public static void main(String[] args) {
         Book b1 = new Book("Moby Dick", 1851, 15.20f);
