@@ -25,4 +25,16 @@ public class Basket {
 
         return i;
     }
+
+    private boolean replaceEntry (Book b) {
+        if (basketContents.containsKey(b.name)) {
+            if (b.price < basketContents.get(b).price) {
+                basketContents.put(b.name, b);
+                return true;
+            } else
+                System.err.println("Price was not cheaper");
+                return false;
+        } else
+            throw new IllegalStateException("Entry was never in basket");
+    }
 }
