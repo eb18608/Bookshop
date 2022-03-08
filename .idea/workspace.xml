@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a3d9d9-bd70-4959-961e-1d5ebcdb5548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/main/java/Discount/NoDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/main/java/DiscountCentre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/java/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646678641987</updated>
-      <workItem from="1646678644997" duration="12527000" />
+      <workItem from="1646678644997" duration="13126000" />
     </task>
     <servers />
   </component>
@@ -172,11 +166,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/main/java/Discount/DiscountController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
