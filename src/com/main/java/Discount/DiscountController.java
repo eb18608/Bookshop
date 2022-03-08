@@ -6,8 +6,9 @@ import com.main.java.Book;
 import java.util.HashSet;
 
 /**
- * Class to deal with the conditions needed to apply discount. Generates discount visitor
- * objects to visit the discount applier that applies the discount.
+ * Class to deal with the conditions needed to apply discount. Generates
+ * collection of discount objects to visit DiscountApplier and affect the
+ * Basket object.
  */
 
 public class DiscountController {
