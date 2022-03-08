@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a3d9d9-bd70-4959-961e-1d5ebcdb5548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/main/java/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/main/java/DiscountApplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/main/java/DiscountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountApplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountApplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646678641987</updated>
-      <workItem from="1646678644997" duration="2305000" />
+      <workItem from="1646678644997" duration="4162000" />
     </task>
     <servers />
   </component>
@@ -90,6 +89,22 @@
       <screen x="0" y="0" width="1846" height="1080" />
     </state>
     <state x="629" y="281" key="FileChooserDialogImpl/0.0.1846.1080/-1920.0.1920.1080@0.0.1846.1080" timestamp="1646678685275" />
+    <state width="1234" height="103" key="GridCell.Tab.0.bottom" timestamp="1646745300017">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1234" height="103" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1646745300017" />
+    <state width="1234" height="103" key="GridCell.Tab.0.center" timestamp="1646745300016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1234" height="103" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1646745300016" />
+    <state width="1234" height="103" key="GridCell.Tab.0.left" timestamp="1646745300016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1234" height="103" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1646745300016" />
+    <state width="1234" height="103" key="GridCell.Tab.0.right" timestamp="1646745300017">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1234" height="103" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1646745300017" />
     <state x="403" y="114" key="SettingsEditor" timestamp="1646678715866">
       <screen x="0" y="0" width="1846" height="1080" />
     </state>
@@ -98,5 +113,9 @@
       <screen x="0" y="0" width="1846" height="1080" />
     </state>
     <state x="627" y="433" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1846.1080/-1920.0.1920.1080@0.0.1846.1080" timestamp="1646678707317" />
+    <state x="298" y="154" key="run.anything.popup" timestamp="1646744952664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="298" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1646744952664" />
   </component>
 </project>
