@@ -9,7 +9,7 @@ import java.util.HashSet;
  * basket.
  */
 
-public abstract class DiscountObject {
+public abstract class DiscountObject implements DiscountVisitor{
 
     HashSet<Book> applicableBooks;
     float percentageDiscount;

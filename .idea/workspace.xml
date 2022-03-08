@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a3d9d9-bd70-4959-961e-1d5ebcdb5548" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountVisitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/main/java/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountApplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountApplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Discount/DiscountObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646678641987</updated>
-      <workItem from="1646678644997" duration="5431000" />
+      <workItem from="1646678644997" duration="6765000" />
     </task>
     <servers />
   </component>
@@ -83,6 +90,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="445" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1646753578618">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="445" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1646753578618" />
     <state x="629" y="281" key="FileChooserDialogImpl" timestamp="1646678685275">
       <screen x="0" y="0" width="1846" height="1080" />
     </state>
@@ -115,5 +126,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="298" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1646744952664" />
+    <state x="302" y="1" key="search.everywhere.popup" timestamp="1646753549364">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="302" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1646753549364" />
   </component>
 </project>

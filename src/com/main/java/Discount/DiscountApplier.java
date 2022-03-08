@@ -8,7 +8,7 @@ import com.main.java.Basket;
  */
 
 
-public class DiscountApplier {
+public class DiscountApplier implements DiscountVisitable{
 
     Basket basket;
 
@@ -17,4 +17,9 @@ public class DiscountApplier {
         this.basket = b;
     }
 
+    @Override
+    public void accept(DiscountVisitor v) {
+        // Default visitor implementation
+        v.visit(this, basket);
+    }
 }
