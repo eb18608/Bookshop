@@ -35,6 +35,6 @@ public class Basket {
                 System.err.println("Price was not cheaper");
                 return false;
         } else
-            throw new IllegalStateException("Entry was never in basket");
+            throw new IllegalArgumentException("Entry was never in basket");
     }
 }
