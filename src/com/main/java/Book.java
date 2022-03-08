@@ -5,22 +5,29 @@ package com.main.java;
  */
 
 public class Book {
-    String name;
-    float publish_year;
-    float price;
+    private String name;
+    private int publish_year;
+    private float price;
 
-    public Book(String name, float publish_year, float price) {
+    public Book(String name, int publish_year, float price) {
         this.name = name;
         this.publish_year = publish_year;
         this.price = price;
-
     }
 
-    private String getName(){
+    public String getName(){
         return name;
     }
 
-    private void changePrice(int newPrice) {
+    public int getPublish_year() {
+        return publish_year;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void changePrice(float newPrice) {
         this.price = newPrice;
     }
 }

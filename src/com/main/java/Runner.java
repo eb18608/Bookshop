@@ -1,5 +1,9 @@
 package com.main.java;
 
+import com.main.java.Discount.DiscountA;
+import com.main.java.Discount.DiscountApplier;
+import com.main.java.Discount.DiscountController;
+
 import java.util.ArrayList;
 
 public class Runner {
@@ -12,5 +16,10 @@ public class Runner {
         basket.add(b1);
         basket.add(b2);
         basket.add(b3);
+        Basket b = new Basket(basket);
+        DiscountApplier dApplier = new DiscountApplier(b);
+        DiscountController dController = new DiscountController(b.getBasketList());
+        DiscountA discountA = new DiscountA(b.getBasketList());
+        dApplier.accept(discountA);
     }
 }

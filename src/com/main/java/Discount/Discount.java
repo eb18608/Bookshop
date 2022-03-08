@@ -9,13 +9,11 @@ import java.util.HashSet;
  * basket.
  */
 
-public abstract class DiscountObject implements DiscountVisitor{
+public abstract class Discount implements DiscountVisitor{
 
     HashSet<Book> applicableBooks;
-    float percentageDiscount;
 
-    public DiscountObject (HashSet<Book> aB, float pD) {
+    public Discount(HashSet<Book> aB) {
         this.applicableBooks = aB;
-        this.percentageDiscount = pD;
     }
 }
