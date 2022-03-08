@@ -12,8 +12,9 @@ public class DiscountApplier {
 
     Basket basket;
 
-    // Pass basket object to Discount Applier to modify
+    // Pass Basket object to Discount Applier for visitors to modify
     public DiscountApplier(Basket b) {
         this.basket = b;
     }
+
 }
