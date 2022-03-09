@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81a3d9d9-bd70-4959-961e-1d5ebcdb5548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/main/java/BasketList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bookshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bookshop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Basket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Basket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Discount/Discount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Discount/Discount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Discount/DiscountApplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Discount/DiscountApplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Discount/DiscountB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Discount/DiscountB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/DiscountCentre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/DiscountCentre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookshop/com/main/java/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/java/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -77,11 +76,11 @@
       <recent name="C:\Users\john9\Documents\GitHub\Bookshop\src\com\main\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Runner" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.java.Runner" />
       <module name="Bookshop" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;src/com/main/java/BasketList.txt&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\john9\Documents\GitHub\Bookshop\src\com\main\java\BasketList.txt&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.main.java.*" />
@@ -92,85 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleCase1Test.visitTestCaseExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bookshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.java" />
-      <option name="MAIN_CLASS_NAME" value="com.test.java.SampleCase1Test" />
-      <option name="METHOD_NAME" value="visitTestCaseExample1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleCaseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bookshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.java" />
-      <option name="MAIN_CLASS_NAME" value="com.test.java.SampleCaseTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleCaseTests.visitTestCaseExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bookshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.java" />
-      <option name="MAIN_CLASS_NAME" value="com.test.java.SampleCaseTests" />
-      <option name="METHOD_NAME" value="visitTestCaseExample2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleCaseTests.visitTestCaseExample3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bookshop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.java" />
-      <option name="MAIN_CLASS_NAME" value="com.test.java.SampleCaseTests" />
-      <option name="METHOD_NAME" value="visitTestCaseExample3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Runner" />
-      <item itemvalue="JUnit.SampleCase1Test.visitTestCaseExample1" />
-      <item itemvalue="JUnit.SampleCaseTests.visitTestCaseExample2" />
-      <item itemvalue="JUnit.SampleCaseTests.visitTestCaseExample3" />
-      <item itemvalue="JUnit.SampleCaseTests" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="JUnit.SampleCaseTests" />
-        <item itemvalue="JUnit.SampleCaseTests.visitTestCaseExample3" />
-        <item itemvalue="JUnit.SampleCaseTests.visitTestCaseExample2" />
-        <item itemvalue="JUnit.SampleCase1Test.visitTestCaseExample1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -182,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646678641987</updated>
-      <workItem from="1646678644997" duration="30986000" />
+      <workItem from="1646678644997" duration="32375000" />
     </task>
     <servers />
   </component>
@@ -197,10 +117,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646789121529" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646789379658">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646790770551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646789379658" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646790770551" />
     <state x="668" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1646775869234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,26 +139,26 @@
     </state>
     <state x="629" y="281" key="FileChooserDialogImpl/0.0.1846.1080/-1920.0.1920.1080@0.0.1846.1080" timestamp="1646678685275" />
     <state x="654" y="271" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646786850819" />
-    <state width="1877" height="183" key="GridCell.Tab.0.bottom" timestamp="1646789365382">
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom" timestamp="1646790775287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="103" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1646757704057" />
-    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646789365382" />
-    <state width="1877" height="183" key="GridCell.Tab.0.center" timestamp="1646789365382">
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646790775287" />
+    <state width="1877" height="183" key="GridCell.Tab.0.center" timestamp="1646790775287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="103" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1646757704057" />
-    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646789365382" />
-    <state width="1877" height="183" key="GridCell.Tab.0.left" timestamp="1646789365382">
+    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646790775287" />
+    <state width="1877" height="183" key="GridCell.Tab.0.left" timestamp="1646790775287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="103" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1646757704057" />
-    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646789365382" />
-    <state width="1877" height="183" key="GridCell.Tab.0.right" timestamp="1646789365382">
+    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646790775287" />
+    <state width="1877" height="183" key="GridCell.Tab.0.right" timestamp="1646790775287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="103" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1646757704057" />
-    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646789365382" />
+    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646790775287" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1646788401194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,11 +179,11 @@
     </state>
     <state width="1234" height="203" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1646756946877" />
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646788401194" />
-    <state x="419" y="110" key="SettingsEditor" timestamp="1646786888080">
+    <state x="419" y="110" key="SettingsEditor" timestamp="1646790885076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="403" y="114" key="SettingsEditor/0.0.1846.1080/-1920.0.1920.1080@0.0.1846.1080" timestamp="1646678715866" />
-    <state x="419" y="110" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646786888080" />
+    <state x="419" y="110" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1646790885076" />
     <state x="652" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1646781504426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
