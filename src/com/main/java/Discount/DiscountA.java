@@ -1,20 +1,26 @@
 package com.main.java.Discount;
 
-import com.main.java.Basket;
 import com.main.java.Book;
 
 import java.util.HashSet;
 
 public class DiscountA extends Discount {
 
-    public DiscountA(HashSet<Book> aB) {
+    float percentageDiscount;
+
+    public DiscountA(HashSet<Book> aB, float pD) {
         super(aB);
+        this.percentageDiscount = pD;
     }
 
     @Override
-    public void visit(DiscountVisitable d, Basket b) {
+    public void visit(DiscountApplier d) {
 
-        // Discount logic
-        System.out.println("Visitor A visits basket b: " + b.toString());
+        // Apply 10% discount to applicable books and update applier
+        for (Book b: applicableBooks) {
+
+            float newPrice = b.getPrice() * (1f - percentageDiscount);
+            b.changePrice(newPrice);
+        }
     }
 }
