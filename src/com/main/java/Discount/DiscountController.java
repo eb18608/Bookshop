@@ -61,7 +61,7 @@ public class DiscountController {
         if (applicableBooks.isEmpty())
             return null;
         else
-            return new DiscountA(applicableBooks);
+            return new DiscountA(applicableBooks, 0.1f);
     }
 
     // Check and create DiscountB object if conditions are met by basketContents
@@ -80,6 +80,6 @@ public class DiscountController {
         if (applicableBooks.isEmpty())
             return null;
         else
-            return new DiscountB(applicableBooks);
+            return new DiscountB(applicableBooks, 0.05f);
     }
 }

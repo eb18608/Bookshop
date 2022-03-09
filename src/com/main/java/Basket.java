@@ -1,5 +1,9 @@
 package com.main.java;
 
+import org.junit.platform.commons.annotation.Testable;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -19,14 +23,13 @@ public class Basket {
         System.out.println("this basket is: " + this.toString());
     }
 
-
-    private float basketTotal(HashMap<String, Book> basketContents) {
+    public float basketTotal() {
         float i = 0;
         for (Book b : basketContents.values()) {
             i += b.getPrice();
         };
 
-        return i;
+        return roundFloat(i,2);
     }
 
     public HashSet<Book> getBasketList () {
@@ -35,15 +38,16 @@ public class Basket {
         return currentBasketList;
     }
 
-    private boolean replaceEntry (Book b) {
-        if (basketContents.containsKey(b.getName())) {
-            if (b.getPrice() < basketContents.get(b).getPrice()) {
-                basketContents.put(b.getName(), b);
-                return true;
-            } else
-                System.err.println("Price was not cheaper");
-                return false;
-        } else
-            throw new IllegalArgumentException("Entry was never in basket");
+    public HashMap<String, Book> getBasketContents () {
+        return basketContents;
     }
+
+    // Rounding helper function
+    protected static float roundFloat(float f, int decimalPlaces) {
+
+        BigDecimal bD = new BigDecimal(Float.toString(f));
+        bD = bD.setScale(decimalPlaces, RoundingMode.HALF_UP);
+        return bD.floatValue();
+    }
+
 }

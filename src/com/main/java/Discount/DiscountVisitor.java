@@ -4,6 +4,6 @@ import com.main.java.Basket;
 
 public interface DiscountVisitor {
 
-    void visit (DiscountVisitable d, Basket b);
+    void visit (DiscountApplier d);
 
 }
