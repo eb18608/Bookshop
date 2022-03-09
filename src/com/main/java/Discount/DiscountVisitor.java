@@ -1,6 +1,5 @@
 package com.main.java.Discount;
 
-import com.main.java.Basket;
 
 public interface DiscountVisitor {
 

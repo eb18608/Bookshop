@@ -1,9 +1,7 @@
 package com.main.java.Discount;
 
 import com.main.java.Basket;
-import com.main.java.Book;
 
-import java.util.HashMap;
 
 /***
  * Visitable object that is coupled with the Basket object. Gets visited by

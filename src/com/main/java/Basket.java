@@ -1,6 +1,5 @@
 package com.main.java;
 
-import org.junit.platform.commons.annotation.Testable;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -27,7 +26,7 @@ public class Basket {
         float i = 0;
         for (Book b : basketContents.values()) {
             i += b.getPrice();
-        };
+        }
 
         return roundFloat(i,2);
     }
